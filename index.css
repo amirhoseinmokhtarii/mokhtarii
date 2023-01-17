@@ -1,0 +1,176 @@
+@font-face {
+    font-family: ubunto;
+    src: url('font/Ubuntu-Regular.ttf');
+  }
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background-color: rgb(32, 33, 36);
+font-family: ubunto;
+    
+}
+
+.left-site {
+    background-color: rgb(48, 49, 52);
+    width: 24%;
+   
+    margin: 2.5% 0.5% 3% 1.5%;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 4px 4px 0 0;
+
+}
+#profile-box{
+    position: relative;
+ 
+}
+#profile-box #profile-imag{
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+
+
+
+}
+#profile-box #profile-name{
+    width:96.2%;
+    background-color:rgba(0, 0, 0, 0.4) ;
+color: #fff;
+text-align: center;
+position: absolute;
+bottom: 0.5%;
+left: 0%;
+padding: 2%;
+font-size: 35px;
+}
+#description-box ul{
+    list-style: none;
+    padding: 15px;
+   
+}
+#description-box ul li{
+    margin-bottom: 15px;
+}
+#description-box ul i{
+    /* color:  rgb(187, 134, 252); */
+font-size: 18px;
+
+}
+#description-box ul li span{
+    font-size: 20px;
+    color:#fff;
+    margin: 10px;
+}
+hr{
+    margin: 0 auto;
+    border-color: #808080;
+    height: 1px;
+}
+
+
+.right-site {
+    display: inline-block;
+    width: 70%;
+    margin: 2.5% 1.5% 3% 0.3%;
+    vertical-align: top;
+
+}
+
+i.fa{
+    color: rgb(187, 134, 252);
+
+}
+.pb100{
+    width: 100%;
+}
+.pb80{
+    width: 80%;
+}
+.pb60{
+    width: 60%;
+}
+.pb0{
+    width: 0px;
+}
+.aside-item{
+    padding: 15px;
+    color: #fff;
+    margin: 5px 0 25px;
+}
+#item-title{
+    margin-left: 5px;
+    font-size: 30px;
+}
+
+.right-site section {
+    background-color: rgb(48, 49, 52);
+    color: #fff;
+
+    margin-bottom: 1.5%;
+    padding: 25px;
+
+}
+.title-section span{
+    color: #fff;
+    font-size: 36px;
+    margin: 20px;
+}
+.title-work{
+    margin-top: 20px;
+}
+.right-site-item h2{margin: 25px 0 0;
+    font-size: 30px;
+
+}
+.right-site-item h3{
+    margin: 5px 0;
+    font-size: 22px;
+
+}
+.right-site-item p{
+    margin:10px 0 40px ;
+    font-size: 20px;
+}
+
+/* #work1{
+font-size: 250px;
+} */
+.title-work p {
+    font-size: 250px;
+}
+.skill-item{
+    margin-top:15px ;
+}
+.progress-box{
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+margin-top: 15px;
+}
+.progress-bar{
+    background-color:rgb(187, 134, 252);
+    border-radius: 15px;
+   
+    padding: 2px ;
+}
+#right-site-top{
+    color: #fff;
+}
+
+footer {
+    background-color: rgb(187, 134, 252);
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+
+}
+footer a {
+    color: #fff;
+}
